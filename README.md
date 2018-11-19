@@ -1,1 +1,1 @@
-# gnaiqnaipoahzednuhcoaix
+此项目为静态文件，配置nginx即可
