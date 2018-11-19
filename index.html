@@ -436,9 +436,9 @@ http-equiv="X-UA-Compatible">
 				];
 				var row =1;
 				var col = 1;
-				for(var i = 0; i < 120;i++)
+				for(var i = 0; i < 100;i++)
 				{
-					var photo = photos[0];
+					var photo = photos[i%photos.length];
 					photo.col = col++;
 					photo.row = row;
 					table[i] = photo;
